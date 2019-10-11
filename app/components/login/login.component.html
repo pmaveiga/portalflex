@@ -1,0 +1,9 @@
+<form class="form-signin col-sm-6" ng-submit="$ctrl.signin()">
+    <h1 class="h3 mb-3 font-weight-normal text-center">Sign in</h1>
+    <label for="username" class="sr-only">username</label>
+    <input type="text" required ng-model="$ctrl.user" class="form-control" id="username" aria-describedby="username"
+           placeholder="Enter username">
+    <label for="password" class="sr-only">password</label>
+    <input type="password" required ng-model="$ctrl.pass" class="form-control" id="password" placeholder="Password">
+    <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+</form>
